@@ -1,10 +1,13 @@
-AN IPHONE APP
-MADE WITH https://codeium.com/windsurf
---
+
+# AN IPHONE APP
+## MADE WITH https://codeium.com/windsurf
+
+![image](LL-Windsurf.png)
+
 
 PROMPT:
 --
-
+"""
 Read the project files and modify the existing app that displays real time soccer data.
 
 Load game "Results" data and "Standings" data from the API example in rm.py.
@@ -25,7 +28,7 @@ On top right, there is a button "Results" that switches view to the latest match
 Use Apple UI design guidelines from: https://developer.apple.com/design/tips/
 Follow the Apple Swift guidelines from: https://www.swift.org/documentation/
 Make the UI really pretty and follow Apple UI design guidelines.
-
+"""
 
 
 
