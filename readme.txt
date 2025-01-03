@@ -1,8 +1,8 @@
-
-
+AN IPHONE APP
 MADE WITH https://codeium.com/windsurf
+--
 
-
+PROMPT:
 --
 
 Read the project files and modify the existing app that displays real time soccer data.
