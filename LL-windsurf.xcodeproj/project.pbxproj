@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9CD468942D283D1000E91111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CD4687B2D283D0F00E91111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD468822D283D0F00E91111;
+			remoteInfo = "LL-windsurf";
+		};
+		9CD4689E2D283D1000E91111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CD4687B2D283D0F00E91111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD468822D283D0F00E91111;
+			remoteInfo = "LL-windsurf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CD468832D283D0F00E91111 /* LL-windsurf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LL-windsurf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD468932D283D1000E91111 /* LL-windsurfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LL-windsurfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD4689D2D283D1000E91111 /* LL-windsurfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LL-windsurfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9CD468852D283D0F00E91111 /* LL-windsurf */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LL-windsurf";
+			sourceTree = "<group>";
+		};
+		9CD468962D283D1000E91111 /* LL-windsurfTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LL-windsurfTests";
+			sourceTree = "<group>";
+		};
+		9CD468A02D283D1000E91111 /* LL-windsurfUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LL-windsurfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CD468802D283D0F00E91111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD468902D283D1000E91111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD4689A2D283D1000E91111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CD4687A2D283D0F00E91111 = {
+			isa = PBXGroup;
+			children = (
+				9CD468852D283D0F00E91111 /* LL-windsurf */,
+				9CD468962D283D1000E91111 /* LL-windsurfTests */,
+				9CD468A02D283D1000E91111 /* LL-windsurfUITests */,
+				9CD468842D283D0F00E91111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CD468842D283D0F00E91111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CD468832D283D0F00E91111 /* LL-windsurf.app */,
+				9CD468932D283D1000E91111 /* LL-windsurfTests.xctest */,
+				9CD4689D2D283D1000E91111 /* LL-windsurfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CD468822D283D0F00E91111 /* LL-windsurf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD468A72D283D1000E91111 /* Build configuration list for PBXNativeTarget "LL-windsurf" */;
+			buildPhases = (
+				9CD4687F2D283D0F00E91111 /* Sources */,
+				9CD468802D283D0F00E91111 /* Frameworks */,
+				9CD468812D283D0F00E91111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9CD468852D283D0F00E91111 /* LL-windsurf */,
+			);
+			name = "LL-windsurf";
+			packageProductDependencies = (
+			);
+			productName = "LL-windsurf";
+			productReference = 9CD468832D283D0F00E91111 /* LL-windsurf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CD468922D283D1000E91111 /* LL-windsurfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD468AA2D283D1000E91111 /* Build configuration list for PBXNativeTarget "LL-windsurfTests" */;
+			buildPhases = (
+				9CD4688F2D283D1000E91111 /* Sources */,
+				9CD468902D283D1000E91111 /* Frameworks */,
+				9CD468912D283D1000E91111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CD468952D283D1000E91111 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9CD468962D283D1000E91111 /* LL-windsurfTests */,
+			);
+			name = "LL-windsurfTests";
+			packageProductDependencies = (
+			);
+			productName = "LL-windsurfTests";
+			productReference = 9CD468932D283D1000E91111 /* LL-windsurfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CD4689C2D283D1000E91111 /* LL-windsurfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD468AD2D283D1000E91111 /* Build configuration list for PBXNativeTarget "LL-windsurfUITests" */;
+			buildPhases = (
+				9CD468992D283D1000E91111 /* Sources */,
+				9CD4689A2D283D1000E91111 /* Frameworks */,
+				9CD4689B2D283D1000E91111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CD4689F2D283D1000E91111 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9CD468A02D283D1000E91111 /* LL-windsurfUITests */,
+			);
+			name = "LL-windsurfUITests";
+			packageProductDependencies = (
+			);
+			productName = "LL-windsurfUITests";
+			productReference = 9CD4689D2D283D1000E91111 /* LL-windsurfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CD4687B2D283D0F00E91111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					9CD468822D283D0F00E91111 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					9CD468922D283D1000E91111 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9CD468822D283D0F00E91111;
+					};
+					9CD4689C2D283D1000E91111 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9CD468822D283D0F00E91111;
+					};
+				};
+			};
+			buildConfigurationList = 9CD4687E2D283D0F00E91111 /* Build configuration list for PBXProject "LL-windsurf" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CD4687A2D283D0F00E91111;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9CD468842D283D0F00E91111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CD468822D283D0F00E91111 /* LL-windsurf */,
+				9CD468922D283D1000E91111 /* LL-windsurfTests */,
+				9CD4689C2D283D1000E91111 /* LL-windsurfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CD468812D283D0F00E91111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD468912D283D1000E91111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD4689B2D283D1000E91111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CD4687F2D283D0F00E91111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD4688F2D283D1000E91111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD468992D283D1000E91111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CD468952D283D1000E91111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD468822D283D0F00E91111 /* LL-windsurf */;
+			targetProxy = 9CD468942D283D1000E91111 /* PBXContainerItemProxy */;
+		};
+		9CD4689F2D283D1000E91111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD468822D283D0F00E91111 /* LL-windsurf */;
+			targetProxy = 9CD4689E2D283D1000E91111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9CD468A52D283D1000E91111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CD468A62D283D1000E91111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CD468A82D283D1000E91111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LL-windsurf/Preview Content\"";
+				DEVELOPMENT_TEAM = Z5AGKU76KL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EUGE.LL-windsurf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CD468A92D283D1000E91111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LL-windsurf/Preview Content\"";
+				DEVELOPMENT_TEAM = Z5AGKU76KL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EUGE.LL-windsurf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CD468AB2D283D1000E91111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5AGKU76KL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EUGE.LL-windsurfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LL-windsurf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LL-windsurf";
+			};
+			name = Debug;
+		};
+		9CD468AC2D283D1000E91111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5AGKU76KL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EUGE.LL-windsurfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LL-windsurf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LL-windsurf";
+			};
+			name = Release;
+		};
+		9CD468AE2D283D1000E91111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5AGKU76KL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EUGE.LL-windsurfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LL-windsurf";
+			};
+			name = Debug;
+		};
+		9CD468AF2D283D1000E91111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5AGKU76KL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EUGE.LL-windsurfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LL-windsurf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CD4687E2D283D0F00E91111 /* Build configuration list for PBXProject "LL-windsurf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD468A52D283D1000E91111 /* Debug */,
+				9CD468A62D283D1000E91111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD468A72D283D1000E91111 /* Build configuration list for PBXNativeTarget "LL-windsurf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD468A82D283D1000E91111 /* Debug */,
+				9CD468A92D283D1000E91111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD468AA2D283D1000E91111 /* Build configuration list for PBXNativeTarget "LL-windsurfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD468AB2D283D1000E91111 /* Debug */,
+				9CD468AC2D283D1000E91111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD468AD2D283D1000E91111 /* Build configuration list for PBXNativeTarget "LL-windsurfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD468AE2D283D1000E91111 /* Debug */,
+				9CD468AF2D283D1000E91111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CD4687B2D283D0F00E91111 /* Project object */;
+}
